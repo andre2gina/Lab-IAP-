@@ -1,0 +1,272 @@
+#continut {
+	max-width: 900px;
+	width: 95%;
+	background-color:#FFF;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+#continut_pag {
+	width: 100%;
+	background-color:#FFF;
+	border-top: 2px solid #00543C;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+header {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+
+main {
+	float: left;
+	width: 70%;
+	background-color:#FFF;
+}
+
+
+
+footer {	
+	height: 2rem;
+	background-image: url('../imagini/img2.gif');
+	background-repeat: repeat-x;
+	background-position: left bottom;
+} 
+footer p{
+	color: #FFF;
+	text-align: center;
+	line-height: 2rem;
+}
+nav {
+	float: right;
+	width: 27%;
+	background: #fff;
+}
+h1, h2 {
+	text-transform: lowercase;
+	font-weight: bold;
+} 
+
+h1 {
+	font-size: 2.6rem;
+	padding: 2.5rem 1rem 1rem 1rem;
+	color: #00543C;
+}
+
+h2 {
+	font-size: 1.5rem;
+	color: #6A6A6A;
+}
+
+p {
+	font-size: 0.875rem;
+	line-height: 1rem;
+}
+
+img {
+	border-style:none;
+	max-width: 100%;
+	height: auto;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.litera {
+	font-size: 3rem;
+	color: #00AA77;
+	font-weight: bold;
+}
+
+article.produs {
+	padding: 1rem;
+}
+
+.autor {
+	border-top: 1px solid #00543C;
+	margin: 0.8rem 0 0.8rem 0; 
+	padding-top: 0.2rem;
+	font-size: 0.65rem;
+	color: #00543C;
+} 
+.produs h1{
+	padding: 1.3rem 0 0 0;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-transform: none;
+	color: #ED0392;
+}
+
+.produs h2 {
+	font-weight: bold;
+	font-size: 1rem;
+	padding: 0.5rem;
+	margin: 2em 0 1em 0;
+}
+
+.mostra {
+	float: left;
+	width: 45%;
+} 
+
+.mostra img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.descriere {
+	float: right;
+	width: 50%;
+	padding: 1rem;
+	text-align: justify;
+	color: #00543C;
+}
+
+.descriere h2 {
+	font-weight: bold;
+	font-size: 1rem;
+	padding: 0.5rem;
+	margin: 2em 0 1em 0;
+	background: #FFFFFF url(../imagini/img3.gif) repeat-x;
+}
+
+.descriere p {
+	font-size: 0.875rem;
+	color: #000;
+	line-height: 1.3rem;
+}
+
+.autor {
+	border-top: 1px solid #00543C;
+	margin: 0.8rem 0 0.8rem 0;
+	padding-top: 0.2rem;
+	font-size: 0.65rem;
+	color: #00543C;
+} 
+
+.livrare {
+	clear: both;
+	padding: 0.5rem 0;
+	background: #FFFFFF url(../imagini/img3.gif) repeat-x;
+	border-top: 1px solid #00543C;
+	font-size: 1rem;
+} 
+
+  
+    nav li{
+      padding: 0.4rem;
+      background-image: url('../imagini/img3.gif');
+      background-repeat: repeat-x;
+      background-position: left bottom; 
+    }
+  
+    nav h1 {
+      margin: 2rem 0 0 0;
+      padding: 0.6rem 0.5rem 0.5rem 0.5rem;
+      background-image: url('../imagini/img2.gif');
+      background-repeat: repeat-x;
+      background-position: left bottom;
+    
+      letter-spacing: normal;
+      font-size: 1rem;
+      color: #FFFFFF;
+    } 
+     a:link, a:visited {
+   color: #00543C;
+  } 
+  a:hover {
+   text-decoration: none;
+  } 
+  header a:link, header a:visited {
+     display: block;
+     position: absolute;
+     bottom: 8%;
+     right: 28%;
+     color: #FF44E2;
+  } 
+  nav a:link, nav a:visited {
+     text-decoration: none;
+     color: #00543C;
+  } 
+  nav a:hover {
+    text-decoration: underline;
+  } 
+   main.imagini_mici {
+   padding-top: 20px;
+  }
+
+  main.buchet_mic {
+   width: 25%;
+   padding: 2px;
+   float: left;
+  } 
+   .login table, .login td, .login th {
+			   border: 1px solid DarkGray;
+			   padding:15px;
+			   
+			  }
+
+			   .centrat {
+			   margin: 0 auto;
+			   text-align: center;
+			   } 
+	.bold {
+		font-weight: bold;
+	}		   
+   
+   @media screen and (max-width: 700px) {
+     #continut {
+     width: 100%;
+     }
+
+     nav {
+     width: 30%;
+     }
+
+     nav ul {
+     margin: 0;
+     }
+
+     .mostra {
+     float: none;
+     width: 100%;
+     }
+
+     .descriere {
+     float: none;
+     width: 100%;
+     }
+
+     main.buchet_mic {
+     width: 33%;
+     padding: 2px;
+     float: left;
+     }
+  }
+   header img.ecran_mic { /* Imagine invizibilă pe ecranele mari */
+     display: none;
+    }
+
+    @media screen and (max-width: 480px) {
+    header img.ecran_mare { /* Imagine invizibilă pe ecranele mici */
+     display: none;
+    }
+
+    header img.ecran_mic {
+     display: block;
+     margin: 0 auto;
+    }
+     main.buchet_mic {
+     width: 50%;
+     padding: 2px;
+     float: left;
+     }
+    } 
